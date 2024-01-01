@@ -35,7 +35,7 @@ const ContractTerms = () => {
     </div>
   );
   return (
-    <div className=" border border-gray-300 rounded-lg mt-10 p-5">
+    <div className="border border-gray-300 rounded-lg mt-10 p-5">
       <h4 className="text-xl font-bold">Contract Terms</h4>
       <p className="mt-4 font-semibold">
         <span className="text-green-500">Upwork Payment Protection.</span> Only
@@ -165,7 +165,7 @@ const ContractTerms = () => {
             budget
           </p>
         </div>
-        <div>
+        <div className="mt-3">
           <h5 className="font-bold flex items-center gap-1">
             40 hrs/week <FaPen className="cursor-pointer" />
           </h5>
