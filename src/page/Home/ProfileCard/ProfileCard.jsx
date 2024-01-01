@@ -18,7 +18,7 @@ const ProfileCard = () => {
       />
       <Box>
         <Heading as="h4" size="md" color="green">
-          Prodip K.
+          Seanie D.
         </Heading>
         <Heading as="h6" size="sm">
           React, Next Js & Javascript Expert | Frontend Developer

@@ -91,7 +91,7 @@ const ContractTerms = () => {
             </p>
           </div>
         </div>
-        <div className="mt-3">
+        <div className="mt-7">
           <h5 className="font-bold flex items-center gap-1">Pay by the hour</h5>
           <div className="font-semibold mt-1">
             <input
@@ -106,14 +106,14 @@ const ContractTerms = () => {
             /hr
           </div>
           <p className="text-sm text-gray-600 font-semibold mt-2">
-            Prodip K.&apos;s profile rate is $9.00/hr{" "}
+            Seanie D.&apos;s profile rate is $9.00/hr{" "}
           </p>
         </div>
-        <div className="mt-4">
+        <div className="mt-7">
           <h5 className="font-bold flex items-center gap-1">
             Schedule a rate increase
           </h5>
-          <p className="my-2 text-gray-600">
+          <p className="my-1 text-gray-600">
             Set an optional rate increase for Prodip in your contract&apos;s
             terms. Their rate will increase automatically and can not be changed
             if they accept your offer.
@@ -155,7 +155,7 @@ const ContractTerms = () => {
             </select>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-7">
           <h5 className="font-bold flex items-center gap-1">
             Weekly Limit <FaQuestionCircle className="cursor-pointer" />
           </h5>
@@ -164,13 +164,13 @@ const ContractTerms = () => {
             budget
           </p>
         </div>
-        <div className="mt-3">
+        <div className="mt-6">
           <h5 className="font-bold flex items-center gap-1">
             40 hrs/week <FaPen className="cursor-pointer" />
           </h5>
           <p className="mt-1 text-gray-600">$399.60 max/week</p>
         </div>
-        <div className="flex gap-1 mt-3">
+        <div className="flex gap-1 mt-7">
           <input type="checkbox" />{" "}
           <p>
             Allow freelancer to log time manually if needed{" "}
