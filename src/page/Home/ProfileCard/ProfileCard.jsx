@@ -9,7 +9,7 @@ const ProfileCard = () => {
       gap="2"
       border="1px solid lightgray"
       rounded="10"
-      padding="6"
+      padding="5"
     >
       <img
         className="h-10 w-10 rounded-full"

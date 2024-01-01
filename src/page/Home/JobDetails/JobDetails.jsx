@@ -36,7 +36,7 @@ const JobDetails = () => {
       gap="2"
       border="1px solid lightgray"
       rounded="10"
-      padding="6"
+      padding="5"
     >
       <Heading as="h4" size="md">
         Job Details
