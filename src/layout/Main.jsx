@@ -1,4 +1,4 @@
-import Home from "../page/Home/Home";
+import Home from "../page/Home/Home/Home";
 import NavBar from "../page/Shared/NavBar";
 
 const Main = () => {

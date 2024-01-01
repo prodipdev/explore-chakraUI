@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setJobDetails } from "../redux/features/jobOfferSlice";
+import { setJobDetails } from "../../../redux/features/jobOfferSlice";
 
 const JobDetails = () => {
   const [formData, setFormData] = useState({
