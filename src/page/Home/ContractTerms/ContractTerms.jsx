@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { setContractTerms } from "../../../redux/features/jobOfferSlice";
 
 const ContractTerms = () => {
+  const [isEditingHours, setIsEditingHours] = useState(false);
   const [formData, setFormData] = useState({
     isFixedPay: false,
     payByTheHour: "",
@@ -166,9 +167,25 @@ const ContractTerms = () => {
         </div>
         <div className="mt-6">
           <h5 className="font-bold flex items-center gap-1">
-            40 hrs/week <FaPen className="cursor-pointer" />
+            ${formData.weeklyLimit} hrs/week{" "}
+            <FaPen
+              className="cursor-pointer"
+              onClick={() => setIsEditingHours(true)}
+            />
           </h5>
-          <p className="mt-1 text-gray-600">$399.60 max/week</p>
+          {isEditingHours ? (
+            <input
+              type="number"
+              className="border-2 px-2 rounded-md outline-gray-500 mt-1"
+              value={formData.weeklyLimit}
+              onChange={(e) =>
+                handleFormDataChange("weeklyLimit", e.target.value)
+              }
+              onBlur={() => setIsEditingHours(false)}
+            />
+          ) : (
+            <p className="mt-1 text-gray-600">$100 max/week</p>
+          )}
         </div>
         <div className="flex gap-1 mt-7">
           <input type="checkbox" />{" "}
