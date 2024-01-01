@@ -115,7 +115,7 @@ const ContractTerms = () => {
             Schedule a rate increase
           </h5>
           <p className="my-1 text-gray-600">
-            Set an optional rate increase for Prodip in your contract&apos;s
+            Set an optional rate increase for Seanie in your contract&apos;s
             terms. Their rate will increase automatically and can not be changed
             if they accept your offer.
           </p>
