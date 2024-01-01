@@ -25,7 +25,6 @@ const ContractTerms = () => {
       ...prevFormData,
       [key]: value,
     }));
-    console.log(formData);
     dispatch(setContractTerms({ ...formData, [key]: value }));
   };
 
