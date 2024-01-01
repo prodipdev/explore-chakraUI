@@ -25,7 +25,7 @@ const Home = () => {
       <ProfileCard />
       <JobDetails />
       <ContractTerms />
-      <div className="border border-gray-300 rounded-lg mt-10 p-5">
+      <div className="border border-gray-300 rounded-lg mt-8 p-5">
         <div className="flex gap-1">
           <input
             type="checkbox"

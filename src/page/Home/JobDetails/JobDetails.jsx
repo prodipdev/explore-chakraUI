@@ -31,7 +31,7 @@ const JobDetails = () => {
   };
   return (
     <Box
-      marginTop="25"
+      marginTop="8"
       width="100%"
       gap="2"
       border="1px solid lightgray"
